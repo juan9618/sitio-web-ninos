@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre Pop It, juguetes sensoriales coloridos y divertidos para disfrutar jugando.">
+    <title>Pop It | Diversión y color</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="#inicio" aria-label="Pop It, ir al inicio">
+            <span class="logo-icon">●</span> Pop It
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galería</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow">¡Un mundo lleno de color!</span>
+                <h1>¡Presiona, juega y <span>diviértete!</span></h1>
+                <p>
+                    Descubre el mundo de los Pop It: juguetes sensoriales
+                    llenos de color que convierten cada momento en una
+                    experiencia divertida.
+                </p>
+                <a class="primary-button" href="#productos">Ver productos</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/photo.jpg" alt="Pop It colorido">
+                <span class="decor decor-one">✦</span>
+                <span class="decor decor-two">●</span>
+            </div>
+        </section>
+
+        <section class="products-section section" id="productos">
+            <div class="section-heading">
+                <span class="eyebrow">Nuestros favoritos</span>
+                <h2>Encuentra tu Pop It ideal</h2>
+                <p>Formas divertidas, colores brillantes y mucha diversión.</p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image pink">
+                        <img src="images/square.png" alt="Pop It de forma cuadrada">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pop It Cuadrado</h3>
+                        <p>Un clásico lleno de burbujas para presionar y disfrutar.</p>
+                        <button class="select-button" type="button"
+                            data-product="Pop It Cuadrado">Me interesa</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image purple">
+                        <img src="images/amongus.png" alt="Pop It inspirado en un personaje espacial">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pop It Among Us</h3>
+                        <p>Una forma divertida para quienes disfrutan los personajes.</p>
+                        <button class="select-button" type="button"
+                            data-product="Pop It Among Us">Me interesa</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image yellow">
+                        <img src="images/round.png" alt="Pop It de forma redonda">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pop It Redondo</h3>
+                        <p>Un diseño llamativo para jugar en casa o llevar a cualquier lugar.</p>
+                        <button class="select-button" type="button"
+                            data-product="Pop It Redondo">Me interesa</button>
+                    </div>
+                </article>
+            </div>
+
+            <p class="selection-message" id="selection-message" aria-live="polite"></p>
+        </section>
+
+        <section class="about-section section" id="nosotros">
+            <div class="about-image">
+                <img src="images/background.png" alt="Colores y diversión con Pop It">
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">Conoce nuestro mundo</span>
+                <h2>Pequeños juguetes, grandes momentos</h2>
+                <p>
+                    Pop It es una forma sencilla de disfrutar los colores,
+                    las formas y la sensación de presionar pequeñas burbujas.
+                    Cada diseño ofrece una experiencia divertida para compartir
+                    con amigos o disfrutar durante el tiempo libre.
+                </p>
+                <a class="secondary-button" href="#galeria">Explorar galería</a>
+            </div>
+        </section>
+
+        <section class="gallery-section section" id="galeria">
+            <div class="section-heading">
+                <span class="eyebrow">Inspírate</span>
+                <h2>Un poco más de diversión</h2>
+                <p>Explora otros diseños y fondos de nuestro mundo Pop It.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-large">
+                    <img src="images/bg-grid.png" alt="Diseño colorido con patrones">
+                    <figcaption>Colores que alegran el día</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/background2.png" alt="Otro diseño colorido de Pop It">
+                    <figcaption>Diseños para todos los gustos</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="images/bg-grid2.png" alt="Patrón decorativo de colores">
+                    <figcaption>Un mundo lleno de formas</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="logo footer-logo" href="#inicio">● Pop It</a>
+        <p>Color, diversión y pequeños momentos felices.</p>
+        <p class="copyright">© 2026 Pop It. Proyecto educativo.</p>
+    </footer>
+
+</body>
+</html>
